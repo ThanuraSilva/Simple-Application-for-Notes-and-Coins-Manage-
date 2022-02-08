@@ -1,0 +1,29 @@
+
+.btn-clear {
+    -fx-graphic: url(../assets/trash.png);
+    -fx-background-color: transparent;
+    -fx-border-color: #fa1010 ;
+    -fx-border-radius: 20px;
+    -fx-border-width: 5px;
+}
+
+.btn-about {
+    -fx-border-color:#FFC312;
+    -fx-border-width: 5px;
+    -fx-border-radius: 10px;
+    -fx-background-color: transparent;
+
+}
+
+.btn-calc {
+    -fx-graphic: url(../assets/calculator.png);
+    -fx-background-color: transparent;
+    -fx-border-color: #FFC312;
+    -fx-border-radius: 20px;
+    -fx-border-width: 5px;
+}
+
+.console-view {
+    -fx-background-color: #2d3436 ;
+
+}

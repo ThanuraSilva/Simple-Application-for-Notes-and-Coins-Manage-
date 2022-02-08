@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="aboutContext" prefHeight="306.0" prefWidth="713.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.AboutControl">
+   <children>
+      <Label layoutX="84.0" layoutY="23.0" text="Simple Application for Notes and Coins Manage">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="271.0" layoutY="189.0" wrapText="true">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="293.0" layoutY="100.0" prefHeight="157.0" prefWidth="391.0" text="This small application is able to find and select the minimum notes and coins requirement for a given amount. The process of selecting is matched with the set of contemporary (application developed period) notes and coins of LKR - Sri Lanka." textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="174.0" fitWidth="173.0" layoutX="45.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/count.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="570.0" layoutY="54.0" text="V 0.1.0">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="408.0" layoutY="270.0" text="Copyright (c) 2022-Present Thanura Silva" />
+   </children>
+</AnchorPane>

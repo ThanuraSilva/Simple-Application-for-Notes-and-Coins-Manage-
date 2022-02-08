@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="consoleView" prefHeight="621.0" prefWidth="745.0" styleClass="console-view" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ViewControl">
+   <children>
+      <TextField fx:id="txtValue" layoutX="61.0" layoutY="57.0" onAction="#txtInputOnAction" prefHeight="60.0" prefWidth="642.0" promptText="Enter Your Amount (LKR)" style="-fx-background-radius: 10px;">
+         <font>
+            <Font size="31.0" />
+         </font></TextField>
+      <Label layoutX="68.0" layoutY="19.0" text="Simple Application for Notes and Coins Manage - For LKR" textFill="#eeecec">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt5000" alignment="CENTER" layoutX="61.0" layoutY="196.0" prefHeight="43.0" prefWidth="121.0" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Cambria Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="txt500" alignment="CENTER" layoutX="61.0" layoutY="334.0" prefHeight="43.0" prefWidth="121.0" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Cambria Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="txt1000" alignment="CENTER" layoutX="61.0" layoutY="265.0" prefHeight="43.0" prefWidth="121.0" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Cambria Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="txt100" alignment="CENTER" layoutX="61.0" layoutY="399.0" prefHeight="43.0" prefWidth="121.0" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Cambria Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="txt50" alignment="CENTER" layoutX="61.0" layoutY="466.0" prefHeight="43.0" prefWidth="121.0" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Cambria Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="txt20" alignment="CENTER" layoutX="61.0" layoutY="531.0" prefHeight="43.0" prefWidth="121.0" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Cambria Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="txt5" alignment="CENTER" layoutX="283.0" layoutY="268.0" prefHeight="43.0" prefWidth="121.0" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Cambria Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="txt10" alignment="CENTER" layoutX="283.0" layoutY="199.0" prefHeight="43.0" prefWidth="121.0" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Cambria Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="txt2" alignment="CENTER" layoutX="283.0" layoutY="332.0" prefHeight="43.0" prefWidth="121.0" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Cambria Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TextField fx:id="txt1" alignment="CENTER" layoutX="283.0" layoutY="398.0" prefHeight="43.0" prefWidth="121.0" style="-fx-background-radius: 10px;">
+         <font>
+            <Font name="Cambria Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <Label layoutX="198.0" layoutY="203.0" prefHeight="28.0" prefWidth="59.0" text="5000" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="276.0" prefHeight="28.0" prefWidth="59.0" text="1000" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="341.0" prefHeight="28.0" prefWidth="59.0" text="500" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="406.0" prefHeight="28.0" prefWidth="59.0" text="100" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="475.0" prefHeight="28.0" prefWidth="59.0" text="50" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="197.0" layoutY="537.0" prefHeight="28.0" prefWidth="59.0" text="20" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="209.0" prefHeight="28.0" prefWidth="59.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="276.0" prefHeight="28.0" prefWidth="59.0" text="5" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="337.0" prefHeight="28.0" prefWidth="59.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="408.0" prefHeight="28.0" prefWidth="59.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnClear" layoutX="530.0" layoutY="167.0" mnemonicParsing="false" onAction="#resetTask" prefHeight="62.0" prefWidth="177.0" styleClass="btn-clear" text="Reset" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Separator layoutX="57.0" layoutY="134.0" prefHeight="5.0" prefWidth="649.0" />
+      <Separator layoutX="46.0" layoutY="592.0" prefHeight="5.0" prefWidth="456.0" />
+      <Label layoutX="92.0" layoutY="153.0" prefHeight="28.0" prefWidth="72.0" text="Notes" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="314.0" layoutY="153.0" prefHeight="28.0" prefWidth="59.0" text="Coins" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCalc" contentDisplay="TOP" defaultButton="true" layoutX="533.0" layoutY="281.0" mnemonicParsing="false" onAction="#calcTask" prefHeight="259.0" prefWidth="177.0" styleClass="btn-calc" text="Start" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAbout" layoutX="542.0" layoutY="570.0" mnemonicParsing="false" onAction="#aboutOnAction" prefHeight="36.0" prefWidth="161.0" styleClass="btn-about" text="About" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
