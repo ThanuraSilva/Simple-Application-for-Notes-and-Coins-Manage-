@@ -3,7 +3,7 @@
 
 This small application is able to select the minimum notes and coins requirement for a given amount. The process of selecting is matched with the set of contemporary (application developed period) notes and coins of LKR - Sri Lanka.
 
-The entire program was developed through Java programming language with performing Java FX API and the objective of the development is directed to educational purpose with included enhance the fundamental programming skills regards Java programming language and Java FX API.
+The entire program was developed to education purpose via Java programming language with performing Java FX API and the objective of the development is directed to educational purpose with included enhance the fundamental programming skills regards Java programming language and Java FX API.
 
 The project has been licensed as an MIT license and open source project.
 
