@@ -1,4 +1,4 @@
-## Simple Application for Notes and Coins Manage - V 0.1.0 (For LKR)
+## Simple Application for Notes and Coins Manage - V 1.0.0 (For LKR)
 ## Overview
 
 This small application is able to select the minimum notes and coins requirement for a given amount. The process of selecting is matched with the set of contemporary (application developed period) notes and coins of LKR - Sri Lanka.
